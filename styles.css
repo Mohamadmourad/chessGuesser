@@ -58,3 +58,7 @@ body{
 #black{
     background-color: black;
 }
+
+button{
+    border: solid 2px black;
+}
