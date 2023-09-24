@@ -12,7 +12,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    background-color: #FFCC70;
+    color: #FFFADD;
 }
 
 .title{
@@ -49,6 +50,7 @@ body{
 .choises button{
     width: 130px;
     height: 130px;
+    border-radius: 7px;
 }
 
 #white{
@@ -60,5 +62,8 @@ body{
 }
 
 button{
-    border: solid 2px black;
+    border: none;
+    box-shadow: -34px 23px 70px 9px rgba(0,0,0,0.29);
+-webkit-box-shadow: -34px 23px 70px 9px rgba(0,0,0,0.29);
+-moz-box-shadow: -34px 23px 70px 9px rgba(0,0,0,0.29);
 }
